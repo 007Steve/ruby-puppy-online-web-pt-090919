@@ -20,7 +20,7 @@ class Dog
     self.all.each do |dog_object| 
      puts dog_object.name
   end
-
+end
 
   def self.clear_all
     @@all.clear
